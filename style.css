@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #c02529;
+    background-image: url(fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 155px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.header h2 {
+    font-size: 24px;
+}
+
+.chat-icon {
+    width: 40px;
+    height: 40px;
+}
+
+#chat {
+    width: 100%;
+    height: 350px;
+    background: #e9e9e9;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mensagem {
+    max-width: 75%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mensagem-bot,
+.mensagem-usuario {
+    padding: 10px 14px;
+    max-width: 70%;
+    margin: 6px 0;
+    border-radius: 10px;
+    line-height: 1.4;
+    display: inline-block;
+}
+
+.mensagem-bot {
+    background: #ffffff;
+    color: #333;
+    align-self: flex-start;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.mensagem-usuario {
+    background: #e63939; 
+    color: #fff;
+    align-self: flex-end;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
+.input-container {
+    display: flex;
+    gap: 8px;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.input-container button {
+    padding: 10px 12px;
+    border: none;
+    background: #df0000;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.input-container button:hover {
+    background: #b30000;
+}

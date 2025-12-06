@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="icon.png">
+    <title>Baymax</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="icon.png" alt="icon" class="chat-icon">
+            <h2>Baymax</h2>
+        </div>
+        
+        <div class="input-container">
+            <input id="CampoMensagem" type="text" placeholder="Digite sua mensagem aqui..." autocomplete="off">
+            <button onclick="enviarMensagem()">Enviar</button>
+            <button onclick="limparChat()">Limpar Chat</button>
+            <button onclick="aumentarFonte()">A+</button>
+            <button onclick="diminuirFonte()">A-</button>
+            
+        </div>
+
+        <div id="chat"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
