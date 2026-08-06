@@ -23,7 +23,7 @@ function enviarMensagem() {
 
     const carregando = mostrarMensagem("BayMax está digitando...", "mensagem-bot mensagem-carregando");
 
-    fetch("gemini.php", {
+    fetch("chat.php", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: "mensagem=" + encodeURIComponent(msg)
