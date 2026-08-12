@@ -1,4 +1,3 @@
-melhora esse md aq
 
 # 🩺🤖 Baymax – Assistente Virtual de Enfermagem Pediátrica  
 **(PHP + HTML + CSS + JS + Gemini Integrado)**
